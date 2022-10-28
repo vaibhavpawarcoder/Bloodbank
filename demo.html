@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="post">
+        <select name="" id="" disabled="disabled">
+            <?php 
+    foreach ($options as $option) {
+    ?>
+      <option><?php echo $option['State']; ?> </option>
+      <?php 
+      }
+     ?>
+        </select>
+        <br><br><br>
+        <button type="submit" name="submit"class="btn btn-danger">Submit</button>
+    </form>
+
+    <?php  
+    if(isset($_POST['submit'])){
+        $state=$_POST['State'];
+
+        $select="select * from donar_registration where State='$state'";
+
+        $query= mysqli_query($con, $select);
+
+        $num=mysqli_num_rows($query);
+
+
+        $result= mysqli_fetch_assoc($query);
+
+        echo $result['state'];
+    }
+    ?>
+</body>
+</html>
+
+
+

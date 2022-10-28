@@ -1,0 +1,130 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3><img src="img/logo.png" class="img-fluid"/><span>Blood Bank</span></h3>
+    </div>
+    <ul class="list-unstyled components">
+    <li  class="active">
+            <a href="index.php" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+        </li>
+
+      <div class="small-screen navbar-display">
+        <li class="dropdown d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#homeSubmenu0" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+            <i class="material-icons">notifications</i><span> 4 notification</span></a>
+            <ul class="collapse list-unstyled menu" id="homeSubmenu0">
+                            <li>
+                            <a href="#">You have 5 new messages</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#">You're now friend with Mike</a>
+                            </li>
+                            <li>
+                                <a href="#">Wish Mary on her birthday!</a>
+                            </li>
+                            <li>
+                                <a href="#">5 warnings in Server Console</a>
+                            </li>
+                            <li>
+                                <a href="#">6 warnings in Server Console</a>
+                            </li>
+            </ul>
+        </li>
+        
+        <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#"><i class="material-icons">apps</i><span>apps</span></a>
+        </li>
+        
+         <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#"><i class="material-icons">person</i><span>user</span></a>
+        </li>
+        
+        <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#"><i class="material-icons">settings</i><span>setting</span></a>
+        </li>
+        </div>
+    
+    
+        <!-- <li class="dropdown">
+            <a href="Donar.php" >
+            <i class="material-icons">aspect_ratio</i><span>Donar</span></a>
+        </li> -->
+        
+        <li class="dropdown">
+            <a href="Pation.php" >
+            <i class="material-icons">apps</i><span>Find-Donar</span></a>
+            
+        </li>
+        
+         <li class="dropdown">
+            <a href="camp.php" >
+            <i class="material-icons">equalizer</i><span>camp</span></a>
+            
+        </li>
+
+        
+          <li class="dropdown">
+            <a href="Donation.php" >
+            <i class="material-icons">extension</i><span>Donation</span></a>
+        </li>
+        
+        <li class="dropdown">
+            <a href="Request.php" >
+            <i class="material-icons">border_color</i><span>Request</span></a>
+        </li>
+       
+       
+       
+       <li class="dropdown">
+            <a href="Histry.php" >
+            <i class="material-icons">grid_on</i><span>Histry</span></a>
+        </li>
+       
+       
+         <li class="dropdown">
+            <a href="Update.php" >
+            <i class="material-icons">settings</i><span>Update</span></a>
+        </li>
+
+        <!-- <li class="dropdown">
+            <a href="logout.php" >
+            <i class="material-icons">logout</i><span>Log-Out</span></a>
+        </li> -->
+
+        <li>
+          <a type="button"  data-toggle="modal" data-target="#exampleModal">
+            <i class="material-icons pt-1">logout</i><span> Log-Out</span>
+          </a>
+        </li>
+       
+       
+    </ul>
+
+   
+</nav>
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready To Log-Out</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="logout.php" method="post">
+            <button class="btn btn-primary" name="logout">Log-Out</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>

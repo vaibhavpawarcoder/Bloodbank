@@ -1,0 +1,108 @@
+.book-food{
+    width: 100%;
+    background: url(Img/back4.png) no-repeat center;
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.75rem 0;
+}
+
+nav{
+    background-color: orangered !important;
+    box-shadow: 2px 2px 2px black;
+}
+.nav-item a{
+    font-size: 20px;
+}
+.nav-item a:hover{
+    border-bottom: 3px solid white;
+}
+
+.nav-btn{
+    color: red !important;
+}
+.nav-btn:hover{
+    border-bottom: 3px solid red !important;
+}
+
+#main{
+    margin-top: 100px !important;
+    height: 80vh !important;
+}
+.type{
+    background-color: #f2f2f2;
+    margin-top: 120px;
+    box-shadow: 9px 9px 9px 9px black;
+    border-radius: 10px;
+}
+.type-group{
+    background-color: red;
+    padding: 20px;
+    margin: 30px;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s ease;
+    box-shadow: 8px 8px 8px black;
+    cursor: pointer;
+}
+.type-div h1{
+    text-shadow: 2px 2px 2px black;
+}
+.type-div a{
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    width: 500px;
+}
+.type-group:hover{
+    transform: scale(1.3);
+}
+.info{
+    backdrop-filter: blur(30px);
+}
+.today i{
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+    border-radius: 50%;
+    border: solid 1px red;
+    transition: 0.5s ease-in-out;
+}
+.today i:hover{
+    border: solid 3px white;
+    background-color: red;
+    color: white;
+    transform: scale(1.3);
+}
+
+.footer-link p a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+.footer-link p a:hover{
+    color: red;
+}
+.footer-socail a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-socail a i{
+    text-decoration: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.footer-socail a i:hover{
+    color: skyblue;
+}
+
+/* pation-page */
+
+.search{
+    border: soild 3px  black;
+}
