@@ -1,6 +1,5 @@
 About__
 “Blood Bank” is an web application to collect or donate blood easily. Users who have an access internet connection can contact and start searching for a donor easily through this application. The purpose of this application is to help people belonging to rural areas.
-/wercker/build/:userName/:applicationName/:branch/wercker/build/:userName/:applicationName/:branch
 
 Features
 Easy contact between blood donor and blood recipient through this application:
